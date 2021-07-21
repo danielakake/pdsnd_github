@@ -18,7 +18,7 @@ def get_filters(city, month, day):
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = ' '
-    while True:
+    while 1:
         city = input("What is the city do you want to explore ? Chicago, New York City or Washington!\n").lower()
         if city not in DATABASE:
             print("\n Sorry you did enter an invalid answer. Could you try again please ?\n")
@@ -26,8 +26,8 @@ def get_filters(city, month, day):
         else:
             break
     month = ' '
-    while True:
-        time = input("How would you like to proceed ? per month, day, all or none?\n").lower()
+    while 1:
+        time = Input("How would you like to proceed ? per month, day, all or none?\n").lower()
         if time == 'month':
             month = input("Which month you want? January, February, March, April, May or June?\n").lower()
             day = 'all'
