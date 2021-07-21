@@ -182,15 +182,15 @@ def user_stats(df):
     print('-' * 40)
 
 
-""" we can ask the user if he wantes 10 lines of the raw data and more"""
+""" we can ask the user if he wantes 20 lines of the raw data and more"""
 
 
 def data(df):
-    view_data = (input('\nWould you like to view 10 rows of individual trip data? Enter yes or no\n')).lower()
+    view_data = (input('\nWould you like to view 20 rows of individual trip data? Enter yes or no\n')).lower()
     start_loc = 0
     while view_data != "no":
-        print(df.iloc[start_loc:start_loc + 10])
-        start_loc += 10
+        print(df.iloc[start_loc:start_loc + 20])
+        start_loc += 20
         view_display = (input("Do you wish to continue?answer by yes or no:\n ")).lower()
         if view_display == "no":
             break
