@@ -29,13 +29,13 @@ def get_filters(city, month, day):
     while True:
         time = input("How would you like to proceed ? per month, day, all or none?\n").lower()
         if time == 'month':
-            month = input("Which month you want? January, February, March, April, May or June?\n").lower()
+            month = input("Which month you want do you want to explore? January, February, March, April, May or June?\n").lower()
             day = 'all'
             break
 
         elif time == 'day':
             month = 'all'
-            day = input("Which day you want? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday\n").lower()
+            day = input("Which day you want to explore ? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday\n").lower()
             break
 
         elif time == 'all':
@@ -47,7 +47,7 @@ def get_filters(city, month, day):
             day = 'all'
             break
         else:
-            input("you enter an incorrect word! Please type  again. month, day, all or none?\n")
+            input(" Sorry you enter an incorrect word! Please type  again. month, day, all or none?\n")
             break
 
     print(city)
