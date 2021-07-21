@@ -199,7 +199,7 @@ def main():
     city = ""
     month = ""
     day = ""
-    while True:
+    while 1:
         city, month, day = get_filters(city, month, day)
         df = load_data(city, month, day)
 
