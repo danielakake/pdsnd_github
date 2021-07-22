@@ -1,19 +1,27 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+22 /07/2021
 
-### Project Title
-Replace the Project Title
-Put the Title on Italic
+####Description
+In this project, you'll be simulating a realistic workflow to refactor your previous Project 2 using Git.
+you will use your project bikeshare.py and push it to github using git.
 
-### Description
-Describe what your project is about and what it does
-i love to finish this project
-### Files used
-Include the files used
-and the file format
+web sites used :
+Github documentation
+https://docs.github.com/en/github
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Documentation 
+Refactoring documentation
+https://pybit.es/articles/refactoring/
 
+Markdown documentation:
+https://guides.github.com/features/mastering-markdown/
+
+List of software, firmware and hardware you may require.
+Installing GIT tool : https://git-scm.com/downloads.
+Files used
+
+The following file contains necessary commands used to do tasks:
+Git Commands Documentation.pdf
+
+Git documentation is very usefull.
